@@ -49,7 +49,7 @@ namespace Pittig.Controllers
             return View(IndexVM);
         }
 
-        [Authorize]
+    //    [Authorize]
         public async Task<IActionResult> Details(int id)
         {
             var menuItemFromDb = await _db.MenuItem.Include(m => m.Category).Include(m => m.SubCategory).Where(m => m.Id == id).FirstOrDefaultAsync();

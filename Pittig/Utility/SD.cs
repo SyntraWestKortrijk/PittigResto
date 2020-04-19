@@ -19,15 +19,15 @@ namespace Pittig.Utility
         public const string ssShoppingCartCount = "ssCartCount";
         public const string ssCouponCode = "ssCouponCode";
 
-        public const string StatusSubmitted = "Submitted";
-        public const string StatusInProcess = "Being Prepared";
-        public const string StatusReady = "Ready for Pickup";
-        public const string StatusCompleted = "Completed";
-        public const string StatusCancelled = "Cancelled";
+        public const string StatusSubmitted = "Verstuurd";
+        public const string StatusInProcess = "In bereiding";
+        public const string StatusReady = "Klaar voor ophaling";
+        public const string StatusCompleted = "Afgehandeld";
+        public const string StatusCancelled = "Geannuleerd";
 
-        public const string PaymentStatusPending = "Pending";
-        public const string PaymentStatusApproved = "Approved";
-        public const string PaymentStatusRejected = "Rejected";
+        public const string PaymentStatusPending = "In Behandeling";
+        public const string PaymentStatusApproved = "Goedgekeurd";
+        public const string PaymentStatusRejected = "Afgewezen";
 
 
 
